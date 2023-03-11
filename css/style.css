@@ -1,0 +1,51 @@
+/* Reset default styles for all HTML elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set default font family and font size */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Define some basic styles for headings */
+  h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Set up a basic layout with a header, main content area, and footer */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+  }
+  
+  main {
+    padding: 1em;
+  }
+
+  .banner {
+    background-image: url("../ressources/BlackPlan\ de\ travail\ 2@2x-100.jpg");
+    background-size: cover;
+    height:100vh ;
+  }
+  
+  
+  footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    text-align: center;
+  }
+  
