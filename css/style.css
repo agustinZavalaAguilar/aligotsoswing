@@ -35,11 +35,18 @@
     padding: 1em;
   }
 
-  .banner {
-    background-image: url("../ressources/BlackPlan\ de\ travail\ 2@2x-100.jpg");
-    background-size: cover;
-    height:100vh ;
+  .image-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
   }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
   
   
   footer {
