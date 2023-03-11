@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+  
   }
   
   /* Set default font family and font size */
@@ -22,6 +24,11 @@
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 0.5em;
+    
+  }
+
+  p {
+      color:blanchedalmond
   }
   
   /* Set up a basic layout with a header, main content area, and footer */
@@ -50,7 +57,8 @@
   
   
   footer {
-    background-color: rgb(255, 255, 255);
+    
+    background-color:blanchedalmond);
     color: rgb(0, 0, 0);
     padding: 1em;
     text-align: center;
